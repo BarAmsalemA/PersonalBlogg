@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif , sans-serif;
+}
+
+header {
+    background-color: #505251;
+}
+
+header img {
+    border: 5px solid white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+header p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+.social-links a {
+    color: white;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #d4d4d4;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+footer {
+    border-top: 1px solid #eaeaea;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+.logo-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* מרווח בין הלוגואים */
+}
+
+.tech-logo {
+    width: 100px; /* או כל גודל אחר שתרצה */
+    height: 100px; /* שמירה על יחס גובה-רוחב קבוע */
+    object-fit: contain; /* שומר על פרופורציות התמונה */
+}
+
+/* התאמה למסכים קטנים */
+@media (max-width: 768px) {
+    .tech-logo {
+        width: 60px;
+        height: 60px;
+    }
+}
